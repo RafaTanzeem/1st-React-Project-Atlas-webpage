@@ -1,0 +1,37 @@
+h2 {
+  font-weight: 400;
+  font-size: 25px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  h2 {
+    font-size: 37px;
+    line-height: 44px;
+    margin-top: 0px;
+  }
+}
+h3 {
+  color: #ffffff;
+}
+p {
+  color: #ffffff;
+  margin: 0px 0px 0px 0px;
+  padding-bottom: 8px;
+}
+@media screen and (min-width: 768px) {
+  p {
+    font-size: 20px;
+    line-height: 182%;
+  }
+}
+.rectangle4 {
+  background: #121524;
+  font-family: "Gill Sans";
+}
+.rectangle4-content {
+  text-align: center;
+}
+.links {
+  padding-bottom: 15px;
+}

@@ -1,0 +1,35 @@
+.header {
+  background: #112828;
+}
+.logo-container {
+  width: 329px;
+  height: 80px;
+  margin: auto;
+}
+.logo-container img {
+  position: relative;
+  left: -15px;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+  width: 100%;
+}
+#btn {
+  position: absolute;
+  display: inline;
+  right: -10px;
+  top: 19px;
+  color: #112828;
+}
+.line1 {
+  width: 20px;
+  height: 1.5px;
+  background-color: #f6e391;
+  margin: 8px 0px;
+}
+@media screen and (min-width: 768px) {
+  #btn {
+    display: none;
+  }
+}
